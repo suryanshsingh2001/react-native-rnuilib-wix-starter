@@ -1,4 +1,5 @@
 import React, {useState} from 'react';
+import {ScrollView} from 'react-native-gesture-handler';
 import {View, Text, Button, Colors, Card} from 'react-native-ui-lib';
 import MaterialIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 const Home = ({navigation}) => {
@@ -16,23 +17,19 @@ const Home = ({navigation}) => {
       <Button label="Press Me" br20 onPress={handleToggle} />
 
       {iconVisible && (
-
-
         <Card
-        
-            
-            height={100}
-            width={100}
-            borderRadius={20}
-            marginT-20
-            padding-10
-            backgroundColor={Colors.$primary}
-            center
-        >
-
-      
-          <MaterialIcons name="human-greeting" size={40} color={Colors.$textPrimary} />
-
+          height={100}
+          width={100}
+          borderRadius={20}
+          marginT-20
+          padding-10
+          backgroundColor={Colors.$primary}
+          center>
+          <MaterialIcons
+            name="human-greeting"
+            size={40}
+            color={Colors.$textPrimary}
+          />
         </Card>
       )}
     </View>
