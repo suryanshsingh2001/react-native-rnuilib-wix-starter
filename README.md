@@ -107,7 +107,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 Suryansh Singh - [@suryansh_si](SuryanshSi2001)
 
-Project Link: [https://github.com/yourusername/react-native-rnuilib-starter](https://github.com/yourusername/react-native-rnuilib-starter)
+Project Link: [https://github.com/suryanshsingh2001/react-native-rnuilib-wix-starter/]([https://github.com/yourusername/react-native-rnuilib-starter](https://github.com/suryanshsingh2001/react-native-rnuilib-wix-starter/))
 
 ---
 
